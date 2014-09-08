@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.luna.common.web.bind.method.annotation.PageableMethodArgumentResolverTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec

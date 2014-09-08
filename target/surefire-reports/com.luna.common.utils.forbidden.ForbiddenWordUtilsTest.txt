@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.luna.common.utils.forbidden.ForbiddenWordUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 6, Skipped: 1, Time elapsed: 0.014 sec <<< FAILURE!
+testReplaceWithDefaultMask2(com.luna.common.utils.forbidden.ForbiddenWordUtilsTest)  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1792)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1769)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1744)
+	at org.apache.commons.io.IOUtils.toByteArray(IOUtils.java:462)
+	at com.luna.common.utils.forbidden.ForbiddenWordUtils.<clinit>(ForbiddenWordUtils.java:105)
+	at com.luna.common.utils.forbidden.ForbiddenWordUtilsTest.testReplaceWithDefaultMask2(ForbiddenWordUtilsTest.java:37)
+
+testReplaceWithDefaultMask3(com.luna.common.utils.forbidden.ForbiddenWordUtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.luna.common.utils.forbidden.ForbiddenWordUtils
+	at com.luna.common.utils.forbidden.ForbiddenWordUtilsTest.testReplaceWithDefaultMask3(ForbiddenWordUtilsTest.java:48)
+
+testReplaceWithDefaultMask4(com.luna.common.utils.forbidden.ForbiddenWordUtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.luna.common.utils.forbidden.ForbiddenWordUtils
+	at com.luna.common.utils.forbidden.ForbiddenWordUtilsTest.testReplaceWithDefaultMask4(ForbiddenWordUtilsTest.java:58)
+
+testReplaceWithCustomMask(com.luna.common.utils.forbidden.ForbiddenWordUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.luna.common.utils.forbidden.ForbiddenWordUtils
+	at com.luna.common.utils.forbidden.ForbiddenWordUtilsTest.testReplaceWithCustomMask(ForbiddenWordUtilsTest.java:68)
+
+testContainsForbiddenWord(com.luna.common.utils.forbidden.ForbiddenWordUtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.luna.common.utils.forbidden.ForbiddenWordUtils
+	at com.luna.common.utils.forbidden.ForbiddenWordUtilsTest.testContainsForbiddenWord(ForbiddenWordUtilsTest.java:76)
+
+testReplaceWithDefaultMask(com.luna.common.utils.forbidden.ForbiddenWordUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.luna.common.utils.forbidden.ForbiddenWordUtils
+	at com.luna.common.utils.forbidden.ForbiddenWordUtilsTest.testReplaceWithDefaultMask(ForbiddenWordUtilsTest.java:27)
+
